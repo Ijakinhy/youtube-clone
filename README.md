@@ -1,21 +1,50 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 # iJakinHy YouTube App
 
-A modern YouTube-inspired web application built with using:React , Material UI, CSS. This project provides users with a seamless experience to watch, and interact with videos in a responsive and visually appealing interface.
+A modern YouTube-inspired web application built with React, Material UI, and CSS. This project provides users with a seamless experience to watch and interact with videos in a responsive and visually appealing interface.
 
 ## Features
 
-Browse Videos: Explore a wide range of video content.
-Categories Bar: Explore the Youtube Video Category
-Responsive Design: Optimized for all devices.
+- **Browse Videos**: Explore a wide range of video content.
+- **Categories Bar**: Explore YouTube video categories.
+- **Responsive Design**: Optimized for all devices.
+
+## Tech Stack
+
+- **Frontend**: React, Vite
+- **UI Library**: Material UI (@mui/material, @emotion)
+- **HTTP Client**: Axios
+- **Video Player**: React Player
+- **Routing**: React Router DOM
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/youtube-clone.git
+   cd youtube-clone
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173` (or the port shown in the terminal).
+
+## Usage
+
+- Browse videos on the feed page.
+- Use the search bar to find specific videos.
+- Click on videos to watch them.
+- Navigate through different categories using the sidebar.
 
 ## Live Demo
 
